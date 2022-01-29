@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aR:FittingRoom xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aR="http://www.example.org/aR">
+  <cloth xsi:type="aR:Shirt" clothTitle="s1" size="MediumLarge" model="//@model.0"/>
+  <cloth xsi:type="aR:Pant" clothTitle="Pant1" size="MediumLarge" model="//@model.0"/>
+  <model modelID="Model 1" cloth="//@cloth.0 //@cloth.1" customer="//@customer.0" accessories="//@accessories.0">
+    <body height="186.0" weight="82.0" name="Body1"/>
+    <hair name="Hair1"/>
+    <face eyeColor="DarkBrown" tone="Mocha" name="Face1"/>
+  </model>
+  <customer name="Max" age="21" model="//@model.0"/>
+  <accessories xsi:type="aR:SummerAccessories" accessoryId="A1" accessoryName="Hat" model="//@model.0"/>
+</aR:FittingRoom>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aR="http://www.example.org/aR" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_H7-hsGraEeyiRqqmHiu_oQ" selectedViews="__1RQkGrqEeymlad1PXS1JQ" version="14.5.1.202106111100">
+    <semanticResources>My.ar</semanticResources>
+    <semanticResources>MyAR.aR</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_OJsf0GroEey0ENCPpbrIhw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/assignment2ASE.design/description/assignment2ASE.odesign#//@ownedViewpoints[name='FileSystem']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" uid="__1RQkGrqEeymlad1PXS1JQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qrR3sGrtEeymlad1PXS1JQ" name="new FittingRoom" repPath="#_qrQpkGrtEeymlad1PXS1JQ" changeId="a12c81fa-966c-4df5-bf5d-2ae8b22a71e5">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']"/>
+        <target xmi:type="aR:FittingRoom" href="MyAR.aR#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_qrQpkGrtEeymlad1PXS1JQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_qrSewGrtEeymlad1PXS1JQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_qrSewWrtEeymlad1PXS1JQ" type="Sirius" element="_qrQpkGrtEeymlad1PXS1JQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_qrdd4GrtEeymlad1PXS1JQ" type="2001" element="_qrTs4GrtEeymlad1PXS1JQ">
+          <children xmi:type="notation:Node" xmi:id="_qrdd42rtEeymlad1PXS1JQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qrdd5GrtEeymlad1PXS1JQ" x="-4" y="-33"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qri9cGrtEeymlad1PXS1JQ" type="3005" element="_qrUT8GrtEeymlad1PXS1JQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qri9cWrtEeymlad1PXS1JQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qri9cmrtEeymlad1PXS1JQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qrdd4WrtEeymlad1PXS1JQ" fontName="Segoe UI" fontHeight="18" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qrdd4mrtEeymlad1PXS1JQ" x="360" y="180" width="144" height="168"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qresAGrtEeymlad1PXS1JQ" visible="false" type="2001" element="_qrU7A2rtEeymlad1PXS1JQ">
+          <children xmi:type="notation:Node" xmi:id="_qresA2rtEeymlad1PXS1JQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qresBGrtEeymlad1PXS1JQ" y="29"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qrjkgGrtEeymlad1PXS1JQ" type="3005" element="_qrViEGrtEeymlad1PXS1JQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qrjkgWrtEeymlad1PXS1JQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qrjkgmrtEeymlad1PXS1JQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qresAWrtEeymlad1PXS1JQ" fontName="Segoe UI" fontHeight="18" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qresAmrtEeymlad1PXS1JQ" x="300" y="4" width="40" height="28"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_qrghMmrtEeymlad1PXS1JQ" type="2001" element="_qrWwMmrtEeymlad1PXS1JQ">
+          <children xmi:type="notation:Node" xmi:id="_qrhIQGrtEeymlad1PXS1JQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qrhIQWrtEeymlad1PXS1JQ" x="-28"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qrkLk2rtEeymlad1PXS1JQ" type="3005" element="_qrWwM2rtEeymlad1PXS1JQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_qrkLlGrtEeymlad1PXS1JQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qrkLlWrtEeymlad1PXS1JQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_qrghM2rtEeymlad1PXS1JQ" fontName="Segoe UI" fontHeight="18" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qrghNGrtEeymlad1PXS1JQ" x="648" y="504" width="108" height="96"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_tf-XcGruEeymlad1PXS1JQ" type="2002" element="_Irn8UHSmEeyQLN_oykxDCg">
+          <children xmi:type="notation:Node" xmi:id="_tf_lkGruEeymlad1PXS1JQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_tgEeEGruEeymlad1PXS1JQ" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_U33PsHSmEeyQLN_oykxDCg" type="3007" element="_U22jEHSmEeyQLN_oykxDCg">
+              <children xmi:type="notation:Node" xmi:id="_U33Ps3SmEeyQLN_oykxDCg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_U33PtHSmEeyQLN_oykxDCg" x="-6" y="145"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_U39WUHSmEeyQLN_oykxDCg" type="3005" element="_U22jEXSmEeyQLN_oykxDCg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_U39WUXSmEeyQLN_oykxDCg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U39WUnSmEeyQLN_oykxDCg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_U33PsXSmEeyQLN_oykxDCg" fontName="Segoe UI" fontHeight="18" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U33PsnSmEeyQLN_oykxDCg" x="104" y="79" width="120" height="144"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_U35E4HSmEeyQLN_oykxDCg" type="3007" element="_U23KIHSmEeyQLN_oykxDCg">
+              <children xmi:type="notation:Node" xmi:id="_U36TAHSmEeyQLN_oykxDCg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_U36TAXSmEeyQLN_oykxDCg" x="6" y="181"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_U39WU3SmEeyQLN_oykxDCg" type="3005" element="_U23KIXSmEeyQLN_oykxDCg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_U39WVHSmEeyQLN_oykxDCg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U39WVXSmEeyQLN_oykxDCg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_U35E4XSmEeyQLN_oykxDCg" fontName="Segoe UI" fontHeight="18" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U35E4nSmEeyQLN_oykxDCg" x="272" y="67" width="144" height="180"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_U36TAnSmEeyQLN_oykxDCg" type="3007" element="_U23xMXSmEeyQLN_oykxDCg">
+              <children xmi:type="notation:Node" xmi:id="_U38vQHSmEeyQLN_oykxDCg" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_U38vQXSmEeyQLN_oykxDCg" x="-11" y="205"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_U399YHSmEeyQLN_oykxDCg" type="3005" element="_U23xMnSmEeyQLN_oykxDCg">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_U399YXSmEeyQLN_oykxDCg" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U399YnSmEeyQLN_oykxDCg"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_U36TA3SmEeyQLN_oykxDCg" fontName="Segoe UI" fontHeight="18" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U36TBHSmEeyQLN_oykxDCg" x="440" y="79" width="192" height="204"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_tgEeEWruEeymlad1PXS1JQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_tgEeEmruEeymlad1PXS1JQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_tf-XcWruEeymlad1PXS1JQ" fontName="Segoe UI"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tf-XcmruEeymlad1PXS1JQ" x="540" y="72" width="744" height="324"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_RRAccHOjEeymL6hd9zduzw" type="2001" element="_RQPAYXOjEeymL6hd9zduzw">
+          <children xmi:type="notation:Node" xmi:id="_RRF8AHOjEeymL6hd9zduzw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_RRF8AXOjEeymL6hd9zduzw" x="-91" y="12"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RR-s0HOjEeymL6hd9zduzw" type="3005" element="_RQSDsHOjEeymL6hd9zduzw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_RR-s0XOjEeymL6hd9zduzw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RR-s0nOjEeymL6hd9zduzw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_RRAccXOjEeymL6hd9zduzw" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RRAccnOjEeymL6hd9zduzw" x="1056" y="498" width="108" height="120"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DVcukHwJEeyT5dyDuh4cVQ" visible="false" type="2001" element="_DVYdInwJEeyT5dyDuh4cVQ">
+          <children xmi:type="notation:Node" xmi:id="_DVdVoHwJEeyT5dyDuh4cVQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_DVdVoXwJEeyT5dyDuh4cVQ" x="41" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DVfx4HwJEeyT5dyDuh4cVQ" type="3005" element="_DVYdI3wJEeyT5dyDuh4cVQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_DVfx4XwJEeyT5dyDuh4cVQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DVfx4nwJEeyT5dyDuh4cVQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DVcukXwJEeyT5dyDuh4cVQ" fontName="Segoe UI" fontHeight="18" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DVcuknwJEeyT5dyDuh4cVQ" x="-24" y="-27" width="40" height="28"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DVejwHwJEeyT5dyDuh4cVQ" type="2001" element="_DVZrQXwJEeyT5dyDuh4cVQ">
+          <children xmi:type="notation:Node" xmi:id="_DVfK0HwJEeyT5dyDuh4cVQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_DVfK0XwJEeyT5dyDuh4cVQ" x="-12" y="79"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DVgY8HwJEeyT5dyDuh4cVQ" type="3005" element="_DVZrQnwJEeyT5dyDuh4cVQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_DVgY8XwJEeyT5dyDuh4cVQ" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DVgY8nwJEeyT5dyDuh4cVQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DVejwXwJEeyT5dyDuh4cVQ" fontName="Segoe UI" fontHeight="18" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DVejwnwJEeyT5dyDuh4cVQ" x="792" y="522" width="96" height="78"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_qrSewmrtEeymlad1PXS1JQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_tgG6UmruEeymlad1PXS1JQ" type="4001" element="_tfTpEGruEeymlad1PXS1JQ" source="_qrdd4GrtEeymlad1PXS1JQ" target="_tf-XcGruEeymlad1PXS1JQ">
+          <children xmi:type="notation:Node" xmi:id="_tgHhYGruEeymlad1PXS1JQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tgHhYWruEeymlad1PXS1JQ" x="23" y="-4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tgHhYmruEeymlad1PXS1JQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tgHhY2ruEeymlad1PXS1JQ" x="28" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tgHhZGruEeymlad1PXS1JQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tgHhZWruEeymlad1PXS1JQ" x="16" y="2"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_tgG6U2ruEeymlad1PXS1JQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_tgG6VGruEeymlad1PXS1JQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tgG6VWruEeymlad1PXS1JQ" points="[46, -68, -1413, -2467]$[114, -84, -1345, -2483]$[126, -62, -1333, -2461]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tgIvgGruEeymlad1PXS1JQ" id="(0.375,0.8571428571428571)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tgIvgWruEeymlad1PXS1JQ" id="(1.7927917290364634,8.182837020534672)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_tgJ9omruEeymlad1PXS1JQ" type="4001" element="_tfWFUGruEeymlad1PXS1JQ" source="_tf-XcGruEeymlad1PXS1JQ" target="_qrghMmrtEeymlad1PXS1JQ">
+          <children xmi:type="notation:Node" xmi:id="_tgJ9pmruEeymlad1PXS1JQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tgJ9p2ruEeymlad1PXS1JQ" x="-60" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tgJ9qGruEeymlad1PXS1JQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tgJ9qWruEeymlad1PXS1JQ" x="43" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tgJ9qmruEeymlad1PXS1JQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tgJ9q2ruEeymlad1PXS1JQ" x="8" y="1"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_tgJ9o2ruEeymlad1PXS1JQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_tgJ9pGruEeymlad1PXS1JQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tgJ9pWruEeymlad1PXS1JQ" points="[-11, -1177, 48, -159]$[-56, -961, 3, 57]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tgKksGruEeymlad1PXS1JQ" id="(0.2517859556091336,4.632834260723165)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tgKksWruEeymlad1PXS1JQ" id="(0.18518518518518517,0.48076923076923067)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_tgKksmruEeymlad1PXS1JQ" visible="false" type="4001" element="_tfWFVWruEeymlad1PXS1JQ" source="_tf-XcGruEeymlad1PXS1JQ" target="_qresAGrtEeymlad1PXS1JQ">
+          <children xmi:type="notation:Node" xmi:id="_tgKktmruEeymlad1PXS1JQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tgKkt2ruEeymlad1PXS1JQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tgLLwGruEeymlad1PXS1JQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tgLLwWruEeymlad1PXS1JQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tgLLwmruEeymlad1PXS1JQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tgLLw2ruEeymlad1PXS1JQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_tgKks2ruEeymlad1PXS1JQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_tgKktGruEeymlad1PXS1JQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tgKktWruEeymlad1PXS1JQ" points="[16, 1, -305, -18]$[301, 17, -20, -2]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tgLLxGruEeymlad1PXS1JQ" id="(1.7625016892639354,4.80411721850745)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tgLLxWruEeymlad1PXS1JQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_RSBJEHOjEeymL6hd9zduzw" type="4001" element="_RQXjQHOjEeymL6hd9zduzw" source="_tf-XcGruEeymlad1PXS1JQ" target="_RRAccHOjEeymL6hd9zduzw">
+          <children xmi:type="notation:Node" xmi:id="_RSBwIHOjEeymL6hd9zduzw" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RSBwIXOjEeymL6hd9zduzw" x="39" y="4"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RSC-QHOjEeymL6hd9zduzw" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RSC-QXOjEeymL6hd9zduzw" x="10" y="-2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RSC-QnOjEeymL6hd9zduzw" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RSC-Q3OjEeymL6hd9zduzw" x="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_RSBJEXOjEeymL6hd9zduzw"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_RSBJEnOjEeymL6hd9zduzw" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RSBJE3OjEeymL6hd9zduzw" points="[90, -62, -266, -451]$[160, 22, -196, -367]$[168, 66, -188, -323]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RSHPsHOjEeymL6hd9zduzw" id="(0.5591397849462365,1.193798449612403)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RSHPsXOjEeymL6hd9zduzw" id="(2.3703703703703702,2.909090909090909)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_P_BeMHwJEeyT5dyDuh4cVQ" type="4001" element="_P-7XmHwJEeyT5dyDuh4cVQ" source="_tf-XcGruEeymlad1PXS1JQ" target="_DVejwHwJEeyT5dyDuh4cVQ">
+          <children xmi:type="notation:Node" xmi:id="_P_CsUHwJEeyT5dyDuh4cVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P_CsUXwJEeyT5dyDuh4cVQ" x="-7" y="-7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_P_DTYHwJEeyT5dyDuh4cVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P_DTYXwJEeyT5dyDuh4cVQ" x="4" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_P_EhgHwJEeyT5dyDuh4cVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P_EhgXwJEeyT5dyDuh4cVQ" x="6" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_P_BeMXwJEeyT5dyDuh4cVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_P_BeMnwJEeyT5dyDuh4cVQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_P_BeM3wJEeyT5dyDuh4cVQ" points="[-24, 108, 42, -199]$[-51, 234, 15, -73]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P_Hk0HwJEeyT5dyDuh4cVQ" id="(0.5,0.6666666666666666)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P_Hk0XwJEeyT5dyDuh4cVQ" id="(0.5625,0.7692307692307693)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_P_Hk0nwJEeyT5dyDuh4cVQ" visible="false" type="4001" element="_P-7-pHwJEeyT5dyDuh4cVQ" source="_tf-XcGruEeymlad1PXS1JQ" target="_DVcukHwJEeyT5dyDuh4cVQ">
+          <children xmi:type="notation:Node" xmi:id="_P_Iy8HwJEeyT5dyDuh4cVQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P_Iy8XwJEeyT5dyDuh4cVQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_P_JaAHwJEeyT5dyDuh4cVQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P_JaAXwJEeyT5dyDuh4cVQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_P_JaAnwJEeyT5dyDuh4cVQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P_JaA3wJEeyT5dyDuh4cVQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_P_Hk03wJEeyT5dyDuh4cVQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_P_Hk1HwJEeyT5dyDuh4cVQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_P_Hk1XwJEeyT5dyDuh4cVQ" points="[-372, -131, 556, 194]$[-908, -318, 20, 7]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P_KBEHwJEeyT5dyDuh4cVQ" id="(0.5,0.6666666666666666)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P_KBEXwJEeyT5dyDuh4cVQ" id="(0.5,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_qrcPwGrtEeymlad1PXS1JQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_qrcPwWrtEeymlad1PXS1JQ"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qrTs4GrtEeymlad1PXS1JQ" name="Max" outgoingEdges="_tfTpEGruEeymlad1PXS1JQ" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="aR:Customer" href="MyAR.aR#//@customer.0"/>
+      <semanticElements xmi:type="aR:Customer" href="MyAR.aR#//@customer.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qrUT8GrtEeymlad1PXS1JQ" labelSize="18" showIcon="false" workspacePath="/my.project.design/icon/icons8-customer-50.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Customer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Customer']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qrU7A2rtEeymlad1PXS1JQ" name="s1" visible="false" incomingEdges="_tfWFVWruEeymlad1PXS1JQ" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="aR:Shirt" href="MyAR.aR#//@cloth.0"/>
+      <semanticElements xmi:type="aR:Shirt" href="MyAR.aR#//@cloth.0"/>
+      <graphicalFilters xmi:type="diagram:HideFilter" uid="_vdmXMGrtEeymlad1PXS1JQ"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qrViEGrtEeymlad1PXS1JQ" labelSize="18" showIcon="false">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Cloth']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Cloth']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_DVYdInwJEeyT5dyDuh4cVQ" name="Pant1" visible="false" incomingEdges="_P-7-pHwJEeyT5dyDuh4cVQ" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="aR:Pant" href="MyAR.aR#//@cloth.1"/>
+      <semanticElements xmi:type="aR:Pant" href="MyAR.aR#//@cloth.1"/>
+      <graphicalFilters xmi:type="diagram:HideFilter" uid="_TdaQoHwJEeyT5dyDuh4cVQ"/>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_DVYdI3wJEeyT5dyDuh4cVQ" labelSize="18" showIcon="false">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Cloth']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Cloth']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qrWwMmrtEeymlad1PXS1JQ" name="s1" incomingEdges="_tfWFUGruEeymlad1PXS1JQ" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="aR:Shirt" href="MyAR.aR#//@cloth.0"/>
+      <semanticElements xmi:type="aR:Shirt" href="MyAR.aR#//@cloth.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_qrWwM2rtEeymlad1PXS1JQ" labelSize="18" showIcon="false" workspacePath="/my.project.design/icon/icon/ic/Shirt.jpg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Shirt']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Shirt']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_tfTpEGruEeymlad1PXS1JQ" sourceNode="_qrTs4GrtEeymlad1PXS1JQ" targetNode="_Irn8UHSmEeyQLN_oykxDCg">
+      <target xmi:type="aR:Customer" href="MyAR.aR#//@customer.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_tfUQIGruEeymlad1PXS1JQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Customer-Model']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_tfUQIWruEeymlad1PXS1JQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Customer-Model']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_tfWFUGruEeymlad1PXS1JQ" sourceNode="_Irn8UHSmEeyQLN_oykxDCg" targetNode="_qrWwMmrtEeymlad1PXS1JQ">
+      <target xmi:type="aR:Model" href="MyAR.aR#//@model.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_tfWFUWruEeymlad1PXS1JQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Model-Cloth']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_tfWFUmruEeymlad1PXS1JQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Model-Cloth']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_tfWFVWruEeymlad1PXS1JQ" visible="false" sourceNode="_Irn8UHSmEeyQLN_oykxDCg" targetNode="_qrU7A2rtEeymlad1PXS1JQ">
+      <target xmi:type="aR:Model" href="MyAR.aR#//@model.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_tfWsYGruEeymlad1PXS1JQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Model-Cloth']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_tfWsYWruEeymlad1PXS1JQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Model-Cloth']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_RQPAYXOjEeymL6hd9zduzw" name="Hat" incomingEdges="_RQXjQHOjEeymL6hd9zduzw" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="aR:SummerAccessories" href="MyAR.aR#//@accessories.0"/>
+      <semanticElements xmi:type="aR:SummerAccessories" href="MyAR.aR#//@accessories.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_RQSDsHOjEeymL6hd9zduzw" labelSize="18" showIcon="false" workspacePath="/my.project.design/icon/icon/pamela-hat.png">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='SummerAccessories']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='SummerAccessories']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_RQXjQHOjEeymL6hd9zduzw" sourceNode="_Irn8UHSmEeyQLN_oykxDCg" targetNode="_RQPAYXOjEeymL6hd9zduzw">
+      <target xmi:type="aR:Model" href="MyAR.aR#//@model.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_RQXjQXOjEeymL6hd9zduzw" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Model-Accessories']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_RQXjQnOjEeymL6hd9zduzw" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Model-Accessories']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Irn8UHSmEeyQLN_oykxDCg" name="Model 1" outgoingEdges="_tfWFUGruEeymlad1PXS1JQ _tfWFVWruEeymlad1PXS1JQ _RQXjQHOjEeymL6hd9zduzw _P-7XmHwJEeyT5dyDuh4cVQ _P-7-pHwJEeyT5dyDuh4cVQ" incomingEdges="_tfTpEGruEeymlad1PXS1JQ">
+      <target xmi:type="aR:Model" href="MyAR.aR#//@model.0"/>
+      <semanticElements xmi:type="aR:Model" href="MyAR.aR#//@model.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_IrojYHSmEeyQLN_oykxDCg" labelSize="18" iconPath="/my.project.design/icon/icon/ic/Model.jpg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']"/>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_U22jEHSmEeyQLN_oykxDCg" name="Face1" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aR:Face" href="MyAR.aR#//@model.0/@face"/>
+        <semanticElements xmi:type="aR:Face" href="MyAR.aR#//@model.0/@face"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_U22jEXSmEeyQLN_oykxDCg" labelSize="18" showIcon="false" workspacePath="/my.project.design/icon/icons8-face-50.png">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='Face']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='Face']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_U23KIHSmEeyQLN_oykxDCg" name="Hair1" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aR:Hair" href="MyAR.aR#//@model.0/@hair"/>
+        <semanticElements xmi:type="aR:Hair" href="MyAR.aR#//@model.0/@hair"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_U23KIXSmEeyQLN_oykxDCg" labelSize="18" showIcon="false" workspacePath="/my.project.design/icon/icons8-woman's-hair-50.png">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='Hair']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='Hair']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" uid="_U23xMXSmEeyQLN_oykxDCg" name="Body1" width="-1" height="-1" resizeKind="NSEW">
+        <target xmi:type="aR:Body" href="MyAR.aR#//@model.0/@body"/>
+        <semanticElements xmi:type="aR:Body" href="MyAR.aR#//@model.0/@body"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_U23xMnSmEeyQLN_oykxDCg" labelSize="18" showIcon="false" workspacePath="/my.project.design/icon/icons8-body-type-tall-50.png">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='Body']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='Body']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_DVZrQXwJEeyT5dyDuh4cVQ" name="Pant1" incomingEdges="_P-7XmHwJEeyT5dyDuh4cVQ" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="aR:Pant" href="MyAR.aR#//@cloth.1"/>
+      <semanticElements xmi:type="aR:Pant" href="MyAR.aR#//@cloth.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_DVZrQnwJEeyT5dyDuh4cVQ" labelSize="18" showIcon="false" workspacePath="/my.project.design/icon/icon/ic/Pant.jpg">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Pant']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Pant']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_P-7XmHwJEeyT5dyDuh4cVQ" sourceNode="_Irn8UHSmEeyQLN_oykxDCg" targetNode="_DVZrQXwJEeyT5dyDuh4cVQ">
+      <target xmi:type="aR:Model" href="MyAR.aR#//@model.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_P-7-oHwJEeyT5dyDuh4cVQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Model-Cloth']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_P-7-oXwJEeyT5dyDuh4cVQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Model-Cloth']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_P-7-pHwJEeyT5dyDuh4cVQ" visible="false" sourceNode="_Irn8UHSmEeyQLN_oykxDCg" targetNode="_DVYdInwJEeyT5dyDuh4cVQ">
+      <target xmi:type="aR:Model" href="MyAR.aR#//@model.0"/>
+      <graphicalFilters xmi:type="diagram:HideFilter" uid="_SRB9EHwJEeyT5dyDuh4cVQ"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_P-7-pXwJEeyT5dyDuh4cVQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Model-Cloth']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_P-7-pnwJEeyT5dyDuh4cVQ" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Model-Cloth']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_qrQpkWrtEeymlad1PXS1JQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer"/>
+    <target xmi:type="aR:FittingRoom" href="MyAR.aR#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
