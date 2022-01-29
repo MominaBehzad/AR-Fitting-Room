@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>my.project.design</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.pde.ManifestBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.pde.SchemaBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.pde.PluginNature</nature>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>icon</name>
+			<type>2</type>
+			<location>C:/Users/Momina Behzad/Downloads/ObeoDesigner-Community-11.5-win32.win32.x86_64/ObeoDesigner-Community/runtime-New_configuration/my.project.design/icon</location>
+		</link>
+		<link>
+			<name>icons</name>
+			<type>2</type>
+			<location>C:/Users/Momina Behzad/Downloads/ObeoDesigner-Community-11.5-win32.win32.x86_64/ObeoDesigner-Community/runtime-New_configuration/my.project.design/icons</location>
+		</link>
+		<link>
+			<name>icon/icon</name>
+			<type>2</type>
+			<location>C:/Users/Momina Behzad/Downloads/ObeoDesigner-Community-11.5-win32.win32.x86_64/ObeoDesigner-Community/runtime-New_configuration/my.project.design/icon</location>
+		</link>
+		<link>
+			<name>icon/icon/ic</name>
+			<type>2</type>
+			<location>C:/Users/Momina Behzad/Downloads/ObeoDesigner-Community-11.5-win32.win32.x86_64/ObeoDesigner-Community/runtime-New_configuration/my.project.design/icon</location>
+		</link>
+	</linkedResources>
+</projectDescription>

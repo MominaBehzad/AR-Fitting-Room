@@ -8,7 +8,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="__1RQkGrqEeymlad1PXS1JQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qrR3sGrtEeymlad1PXS1JQ" name="new FittingRoom" repPath="#_qrQpkGrtEeymlad1PXS1JQ" changeId="a12c81fa-966c-4df5-bf5d-2ae8b22a71e5">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_qrR3sGrtEeymlad1PXS1JQ" name="new FittingRoom" repPath="#_qrQpkGrtEeymlad1PXS1JQ" changeId="581acb82-fcab-478c-b654-9095a2696967">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']"/>
         <target xmi:type="aR:FittingRoom" href="MyAR.aR#/"/>
       </ownedRepresentationDescriptors>
@@ -321,7 +321,7 @@
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_IrojYHSmEeyQLN_oykxDCg" labelSize="18" iconPath="/my.project.design/icon/icon/ic/Model.jpg">
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_IrojYHSmEeyQLN_oykxDCg" labelSize="18" showIcon="false" iconPath="/my.project.design/icon/icon/ic/Model.jpg">
         <labelFormat>bold</labelFormat>
         <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']/@style"/>
       </ownedStyle>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="project" version="12.0.0.2017041100">
+  <ownedViewpoints name="AR" modelFileExtension="aR">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="FittingRoom" initialisation="true" domainClass="aR::FittingRoom" enablePopupBars="true">
+      <metamodel href="http://www.example.org/aR#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="Customer" semanticCandidatesExpression="feature:customer" domainClass="aR::Customer">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="18" showIcon="false" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/my.project.design/icon/icons8-customer-50.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Cloth" semanticCandidatesExpression="feature:cloth" domainClass="aR::Cloth">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="18" showIcon="false" labelExpression="feature:clothTitle" sizeComputationExpression="4" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Shirt" semanticCandidatesExpression="feature:cloth" domainClass="aR::Shirt">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="18" showIcon="false" labelExpression="feature:clothTitle" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/my.project.design/icon/icon/ic/Shirt.jpg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Pant" semanticCandidatesExpression="feature:cloth" domainClass="aR::Pant">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="18" showIcon="false" labelExpression="feature:clothTitle" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/my.project.design/icon/icon/ic/Pant.jpg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="WinterAssecories" semanticCandidatesExpression="feature:accessories" domainClass="aR::WinterAccessories">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="feature:accessoryName" sizeComputationExpression="4" labelPosition="node" resizeKind="NSEW" workspacePath="/my.project.design/icon/icon/winter-gloves (1).png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="SummerAccessories" semanticCandidatesExpression="feature:accessories" domainClass="aR::SummerAccessories">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="18" showIcon="false" labelExpression="feature:accessoryName" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/my.project.design/icon/icon/pamela-hat.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="Customer-Model" sourceMapping="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Customer']" targetMapping="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']" targetFinderExpression="feature:model">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Model-Cloth" sourceMapping="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']" targetMapping="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Pant'] //@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Shirt'] //@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Cloth'] //@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='WinterAssecories']" targetFinderExpression="feature:cloth">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="Model-Accessories" sourceMapping="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']" targetMapping="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='SummerAccessories'] //@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='WinterAssecories']" targetFinderExpression="feature:accessories">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="Model" semanticCandidatesExpression="feature:model" domainClass="aR::Model ">
+          <subNodeMappings name="Face" semanticCandidatesExpression="feature:eAllContents" domainClass="aR::Face">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="18" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/my.project.design/icon/icons8-face-50.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Hair" semanticCandidatesExpression="feature:eAllContents" domainClass="aR::Hair">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="18" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/my.project.design/icon/icons8-woman's-hair-50.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="Body" semanticCandidatesExpression="feature:eAllContents" domainClass="aR::Body">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="18" showIcon="false" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/my.project.design/icon/icons8-body-type-tall-50.png">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelFormat>bold</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="18" showIcon="false" labelExpression="feature:modelID" iconPath="/my.project.design/icon/icon/ic/Model.jpg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>bold</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </containerMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Customer" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Customer']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression=" var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="aR::Customer" referenceName="customer">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="SummerAccessories" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='SummerAccessories']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="aR::SummerAccessories" referenceName="accessories">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="accessoryName"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="WinterAccessories" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='WinterAssecories']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="aR::WinterAccessories" referenceName="accessories">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="accessoryName"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Model" forceRefresh="true" containerMappings="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var: container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="aR::Model" referenceName="model">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="modelID"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Shirt" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Shirt']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="aR::Shirt" referenceName="cloth">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="clothTitle"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Pant" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@nodeMappings[name='Pant']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="aR::Pant" referenceName="cloth">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="clothTitle"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Body" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='Body']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="aR::Body" referenceName="body">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Hair" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='Hair']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="aR::Hair" referenceName="hair">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Face" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@containerMappings[name='Model']/@subNodeMappings[name='Face']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="aR::Face" referenceName="face">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Model-Cloth" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Model-Cloth']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="cloth" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Model-Customer" edgeMappings="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Customer-Model']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="model" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Model-Accessories" edgeMappings="//@ownedViewpoints[name='AR']/@ownedRepresentations[name='FittingRoom']/@defaultLayer/@edgeMappings[name='Model-Accessories']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="accessories" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="my.project.design.Services"/>
+  </ownedViewpoints>
+</description:Group>
