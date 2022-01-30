@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ecore:EPackage [
+<!ENTITY _0 "http://www.eclipse.org/emf/2002/Ecore">
+]>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="aR" nsURI="http://www.example.org/aR" nsPrefix="aR">
+  <eAnnotations source="http://www.eclipse.org/OCL/Import">
+    <details key="ecore" value="http://www.eclipse.org/emf/2002/Ecore"/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+    <details key="invocationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+    <details key="settingDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+    <details key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+  </eAnnotations>
+  <eClassifiers xsi:type="ecore:EClass" name="FittingRoom">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cloth" upperBound="-1"
+        eType="#//Cloth" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="model" upperBound="-1"
+        eType="#//Model" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="customer" upperBound="-1"
+        eType="#//Customer" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="accessories" upperBound="-1"
+        eType="#//Accessories" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Model">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="oneShirt onePant"/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+      <details key="oneShirt" value="self.cloth->oclIsTypeOf(Shirt)->size()&lt;=1"/>
+      <details key="onePant" value=" self.cloth->oclIsTypeOf(Pant)->size()&lt;=1"/>
+    </eAnnotations>
+    <eOperations name="addModel"/>
+    <eOperations name="deleteModel"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modelID" lowerBound="1"
+        eType="ecore:EDataType &_0;#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cloth" upperBound="-1"
+        eType="#//Cloth" eOpposite="#//Cloth/model"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="body" lowerBound="1" eType="#//Body"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="hair" lowerBound="1" eType="#//Hair"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="face" lowerBound="1" eType="#//Face"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="gender" eType="#//Gender"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="customer" lowerBound="1"
+        eType="#//Customer" eOpposite="#//Customer/model"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="accessories" upperBound="-1"
+        eType="#//Accessories" eOpposite="#//Accessories/model"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Cloth" abstract="true">
+    <eOperations name="addCloth"/>
+    <eOperations name="deleteCloth"/>
+    <eOperations name="isCorrectSize" lowerBound="1" eType="ecore:EDataType &_0;#//EBoolean">
+      <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+        <details key="body" value="&#xA;&#x9;&#x9;&#x9;if(model.gender='Female')&#x9;&#xA;&#x9;&#x9;&#x9;then &#xA;&#x9;&#x9;&#x9;    if(model.body.weight>=40 and model.body.weight&lt;=49 and model.body.height>=134 and model.body.height&lt;=154 and size='ExtraSmall')&#xA;&#x9;&#x9;&#x9;    then true&#xA;&#x9;&#x9;&#x9;    else&#xA;&#x9;&#x9;&#x9;    if(model.body.weight>=50 and model.body.weight&lt;=54 and model.body.height>=155 and model.body.height&lt;=164 and size='Small')&#xA;&#x9;&#x9;&#x9;    then true&#xA;&#x9;&#x9;&#x9;    else  &#xA;&#x9;&#x9;&#x9;    if(model.body.weight>=55 and model.body.weight&lt;=64 and model.body.height>=165 and model.body.height&lt;=174 and size='Medium')&#xA;&#x9;&#x9;&#x9;    then true&#xA;&#x9;&#x9;&#x9;    else&#xA;&#x9;&#x9;&#x9;    if(model.body.weight>=65 and model.body.weight&lt;=74 and model.body.height>=175 and model.body.height&lt;=184 and size='MediumLarge')&#xA;&#x9;&#x9;&#x9;    then true&#xA;&#x9;&#x9;&#x9;    else&#xA;&#x9;&#x9;&#x9;    if(model.body.weight>=75 and model.body.weight&lt;=89 and model.body.height>=185 and model.body.height&lt;=194 and size='Large')&#xA;&#x9;&#x9;&#x9;    then true&#xA;&#x9;&#x9;&#x9;    else&#xA;&#x9;&#x9;&#x9;    if(model.body.weight>=90 and model.body.height>=195  and size='ExtraLarge')&#xA;&#x9;&#x9;&#x9;    then true&#xA;&#x9;&#x9;&#x9;    else false&#xA;&#x9;&#x9;&#x9;    endif&#xA;&#x9;&#x9;&#x9;    endif&#xA;&#x9;&#x9;&#x9;    endif&#xA;&#x9;&#x9;&#x9;    endif&#xA;&#x9;&#x9;&#x9;    endif&#xA;&#x9;&#x9;&#x9;    endif&#xA;&#x9;&#x9;else&#xA;&#x9;&#x9;if(model.gender='Male')&#x9;&#xA;&#x9;&#x9;&#x9;then &#xA;&#x9;&#x9;&#x9;    if(model.body.weight>=45 and model.body.weight&lt;=59 and model.body.height>=150 and model.body.height&lt;=164 and size='ExtraSmall')&#xA;&#x9;&#x9;&#x9;    then true&#xA;&#x9;&#x9;&#x9;    else&#xA;&#x9;&#x9;&#x9;    if(model.body.weight>=60 and model.body.weight&lt;=69 and model.body.height>=165 and model.body.height&lt;=174 and size='Small')&#xA;&#x9;&#x9;&#x9;    then true&#xA;&#x9;&#x9;&#x9;    else  &#xA;&#x9;&#x9;&#x9;    if(model.body.weight>=70 and model.body.weight&lt;=79 and model.body.height>=175 and model.body.height&lt;=184 and size='Medium')&#xA;&#x9;&#x9;&#x9;    then true&#xA;&#x9;&#x9;&#x9;    else&#xA;&#x9;&#x9;&#x9;    if(model.body.weight>=80 and model.body.weight&lt;=89 and model.body.height>=185 and model.body.height&lt;=194 and size='MediumLarge')&#xA;&#x9;&#x9;&#x9;    then true&#xA;&#x9;&#x9;&#x9;    else&#xA;&#x9;&#x9;&#x9;    if(model.body.weight>=90 and model.body.weight&lt;=100 and model.body.height>=195 and model.body.height&lt;=204 and size='Large')&#xA;&#x9;&#x9;&#x9;    then true&#xA;&#x9;&#x9;&#x9;    else&#xA;&#x9;&#x9;&#x9;    if(model.body.weight>100 and model.body.height>=205  and size='ExtraLarge')&#xA;&#x9;&#x9;&#x9;    then true&#xA;&#x9;&#x9;&#x9;    else false&#xA;&#x9;&#x9;&#x9;    endif&#xA;&#x9;&#x9;&#x9;    endif&#xA;&#x9;&#x9;&#x9;    endif&#xA;&#x9;&#x9;&#x9;    endif&#xA;&#x9;&#x9;&#x9;    endif&#xA;&#x9;&#x9;&#x9;    endif&#xA;&#x9;&#x9;&#x9;else false&#xA;&#x9;&#x9;&#x9;endif&#xA;&#x9;&#x9;&#x9;endif"/>
+      </eAnnotations>
+    </eOperations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="clothTitle" eType="ecore:EDataType &_0;#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="color" eType="ecore:EDataType &_0;#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="size" eType="#//Size"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="model" lowerBound="1" eType="#//Model"
+        eOpposite="#//Model/cloth"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Size">
+    <eLiterals name="Small"/>
+    <eLiterals name="Medium" value="1"/>
+    <eLiterals name="Large" value="2"/>
+    <eLiterals name="ExtraLarge" value="3"/>
+    <eLiterals name="ExtraSmall" value="4"/>
+    <eLiterals name="MediumLarge" value="5"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Face">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="eyeColor" eType="#//EyeColor"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="tone" eType="#//SkinTone"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType &_0;#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Hair">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length" eType="#//HairLength"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//HairType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType &_0;#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Body">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="height" lowerBound="1"
+        eType="ecore:EDataType &_0;#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="weight" lowerBound="1"
+        eType="ecore:EDataType &_0;#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType &_0;#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Gender">
+    <eLiterals name="Male"/>
+    <eLiterals name="Female" value="1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Customer">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="suitableAge"/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+      <details key="suitableAge" value="age >= 15"/>
+    </eAnnotations>
+    <eOperations name="addCustomer"/>
+    <eOperations name="deleteCustomer"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType &_0;#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="age" lowerBound="1" eType="ecore:EDataType &_0;#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="model" lowerBound="1" eType="#//Model"
+        eOpposite="#//Model/customer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="HairLength">
+    <eLiterals name="short"/>
+    <eLiterals name="medium" value="1"/>
+    <eLiterals name="Long" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="HairType">
+    <eLiterals name="Curly"/>
+    <eLiterals name="Straight" value="1"/>
+    <eLiterals name="wavy" value="2"/>
+    <eLiterals name="frizzy" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="EyeColor">
+    <eLiterals name="LightBrown"/>
+    <eLiterals name="DarkBrown" value="1"/>
+    <eLiterals name="black" value="2"/>
+    <eLiterals name="green" value="3"/>
+    <eLiterals name="blue" value="4"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="SkinTone">
+    <eLiterals name="Vanlia"/>
+    <eLiterals name="Beige" value="1"/>
+    <eLiterals name="Almond" value="2"/>
+    <eLiterals name="Golden" value="3"/>
+    <eLiterals name="Mocha" value="4"/>
+    <eLiterals name="Toffee" value="5"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Shirt" eSuperTypes="#//Cloth">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="oneShirt"/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+      <details key="oneShirt" value="self->size()&lt;=1"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shoulderWidth" lowerBound="1"
+        eType="ecore:EDataType &_0;#//EFloat" defaultValueLiteral="0.0"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="neck" lowerBound="1" eType="ecore:EDataType &_0;#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="sleevesLength" lowerBound="1"
+        eType="ecore:EDataType &_0;#//EFloat"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Pant" eSuperTypes="#//Cloth">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="onePant"/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+      <details key="onePant" value="self->size()&lt;=1"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length" lowerBound="1"
+        eType="ecore:EDataType &_0;#//EFloat"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="waist" lowerBound="1" eType="ecore:EDataType &_0;#//EFloat"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Accessories" abstract="true">
+    <eOperations name="addAccessory"/>
+    <eOperations name="deleteAccessory"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessoryId" eType="ecore:EDataType &_0;#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessoryName" eType="ecore:EDataType &_0;#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="model" lowerBound="1" eType="#//Model"
+        eOpposite="#//Model/accessories"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SummerAccessories" eSuperTypes="#//Accessories"/>
+  <eClassifiers xsi:type="ecore:EClass" name="WinterAccessories" eSuperTypes="#//Accessories"/>
+</ecore:EPackage>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/AR/src-gen" creationIcons="false" editDirectory="/AR.edit/src-gen"
+    editorDirectory="/AR.editor/src-gen" modelPluginID="AR" modelName="AR" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>aR.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="AR" disposableProviderFactory="true" ecorePackage="aR.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="aR.ecore#//Size">
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//Size/Small"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//Size/Medium"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//Size/Large"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//Size/ExtraLarge"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//Size/ExtraSmall"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//Size/MediumLarge"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="aR.ecore#//Gender">
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//Gender/Male"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//Gender/Female"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="aR.ecore#//HairLength">
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//HairLength/short"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//HairLength/medium"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//HairLength/Long"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="aR.ecore#//HairType">
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//HairType/Curly"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//HairType/Straight"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//HairType/wavy"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//HairType/frizzy"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="aR.ecore#//EyeColor">
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//EyeColor/LightBrown"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//EyeColor/DarkBrown"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//EyeColor/black"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//EyeColor/green"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//EyeColor/blue"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="aR.ecore#//SkinTone">
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//SkinTone/Vanlia"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//SkinTone/Beige"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//SkinTone/Almond"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//SkinTone/Golden"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//SkinTone/Mocha"/>
+      <genEnumLiterals ecoreEnumLiteral="aR.ecore#//SkinTone/Toffee"/>
+    </genEnums>
+    <genClasses ecoreClass="aR.ecore#//FittingRoom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference aR.ecore#//FittingRoom/cloth"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference aR.ecore#//FittingRoom/model"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference aR.ecore#//FittingRoom/customer"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference aR.ecore#//FittingRoom/accessories"/>
+    </genClasses>
+    <genClasses ecoreClass="aR.ecore#//Model">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Model/modelID"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aR.ecore#//Model/cloth"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference aR.ecore#//Model/body"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference aR.ecore#//Model/hair"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference aR.ecore#//Model/face"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Model/gender"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aR.ecore#//Model/customer"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aR.ecore#//Model/accessories"/>
+      <genOperations ecoreOperation="aR.ecore#//Model/addModel"/>
+      <genOperations ecoreOperation="aR.ecore#//Model/deleteModel"/>
+    </genClasses>
+    <genClasses ecoreClass="aR.ecore#//Cloth">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Cloth/clothTitle"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Cloth/color"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Cloth/size"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aR.ecore#//Cloth/model"/>
+      <genOperations ecoreOperation="aR.ecore#//Cloth/addCloth"/>
+      <genOperations ecoreOperation="aR.ecore#//Cloth/deleteCloth"/>
+      <genOperations ecoreOperation="aR.ecore#//Cloth/isCorrectSize"/>
+    </genClasses>
+    <genClasses ecoreClass="aR.ecore#//Face">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Face/eyeColor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Face/tone"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Face/name"/>
+    </genClasses>
+    <genClasses ecoreClass="aR.ecore#//Hair">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Hair/length"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Hair/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Hair/name"/>
+    </genClasses>
+    <genClasses ecoreClass="aR.ecore#//Body">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Body/height"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Body/weight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Body/name"/>
+    </genClasses>
+    <genClasses ecoreClass="aR.ecore#//Customer">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Customer/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Customer/age"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aR.ecore#//Customer/model"/>
+      <genOperations ecoreOperation="aR.ecore#//Customer/addCustomer"/>
+      <genOperations ecoreOperation="aR.ecore#//Customer/deleteCustomer"/>
+    </genClasses>
+    <genClasses ecoreClass="aR.ecore#//Shirt">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Shirt/shoulderWidth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Shirt/neck"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Shirt/sleevesLength"/>
+    </genClasses>
+    <genClasses ecoreClass="aR.ecore#//Pant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Pant/length"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Pant/waist"/>
+    </genClasses>
+    <genClasses ecoreClass="aR.ecore#//Accessories">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Accessories/accessoryId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute aR.ecore#//Accessories/accessoryName"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference aR.ecore#//Accessories/model"/>
+      <genOperations ecoreOperation="aR.ecore#//Accessories/addAccessory"/>
+      <genOperations ecoreOperation="aR.ecore#//Accessories/deleteAccessory"/>
+    </genClasses>
+    <genClasses ecoreClass="aR.ecore#//SummerAccessories"/>
+    <genClasses ecoreClass="aR.ecore#//WinterAccessories"/>
+  </genPackages>
+</genmodel:GenModel>
